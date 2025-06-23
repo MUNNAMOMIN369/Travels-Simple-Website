@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <title>Munna Travels</title>
+    <style>
+       
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        html, body {
+            height: 100%;
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0; 
+            display: flex;
+            flex-direction: column;
+        }
+
+        .container {
+            width: 80%;
+            margin: 0 auto;             padding: 20px 0;
+        }
+
+        header {
+            background-color: #3498db; /* Blue header background */
+            color: #fff; /* White text color */
+            padding: 20px 10;
+        }
+
+        header h1 {
+            margin: 0;
+            text-align: center;
+        }
+
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+            text-align: center;
+        }
+
+        nav ul li {
+            display: inline;
+            margin-right: 20px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            font-weight: bold;
+            padding: 6px 10px; /* Reduced padding */
+            border-radius: 3px; /* Rounded corners */
+            display: inline-block;
+            text-align: center;
+            color: #000; /* Black text color */
+            border: 2px solid #fff; /* White border */
+        }
+
+        nav ul li a.about-button {
+            background-color: #34495e; /* Dark blue background */
+        }
+
+        nav ul li a.about-button:hover {
+            background-color: #2c3e50; /* Darker blue on hover */
+        }
+
+        nav ul li a.back-button {
+            background-color: #27ae60; /* Green background */
+        }
+
+        nav ul li a.back-button:hover {
+            background-color: #219653; /* Darker green on hover */
+        }
+
+        .hero {
+            background-image: url('https://i.postimg.cc/RFQZ7n6s/back.jpg'); /* Replace with your background image */
+            background-size: cover;
+            background-position: center;
+            color: #fff; /* White text color */
+            text-align: center;
+            padding: 100px 0;
+            flex: 1; /* Allow the hero section to grow and fill available space */
+        }
+
+        .hero h2 {
+            font-size: 2.5em; /* Adjusted font size */
+            margin-bottom: 20px;
+        }
+
+        footer {
+            background-color: #e74c3c; /* Red footer background */
+            color: #fff; /* White text color */
+            text-align: center;
+            padding: 10px 0;
+            margin-top: auto; /* Push footer to the bottom */
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Welcome to Munna Travels</h1>
+            <nav>
+                <ul>
+                    <li><a href="https://www.redbus.in/travels/munna-tour-and-travels" class="about-button">About</a></li> <!-- Dark blue background, black text, white border -->
+                    <li><a href="munna.html" class="back-button">Back to Home</a></li> <!-- Green background, black text, white border -->
+                </ul>
+            </nav>
+        </div>
+    </header>
+    
+    <section class="hero">
+        <div class="container">
+            <h2>Explore the world with Munna Travels</h2>
+            <h3><p>Munna Travels is a renowned travel company dedicated to providing exceptional travel experiences. Offering a wide range of domestic
+                and international packages, the company caters to diverse preferences and budgets. Known for its modern fleet, professional service, and customer-centric
+                approach, Munna Travels ensures comfortable, safe, and memorable journeys for all its clients. Whether for leisure or business, Munna Travels is your
+                trusted partner in creating seamless and enjoyable travel experiences.</p></h3>
+        </div>
+    </section>
+    
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Munna Travels. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>

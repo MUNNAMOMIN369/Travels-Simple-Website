@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Munna Travel Webpage Design 2024 | MUNNA |</title>
+    <!-- FontAwesome icons CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        body {
+            background-image: url('https://i.postimg.cc/RFQZ7n6s/back.jpg');
+            background-position: center;
+            background-size: cover;
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            backdrop-filter: blur(3px);
+        }
+
+        .glass {
+            width: 930px;
+            height: 520px;
+            box-shadow: 0 0 8px rgba(255, 255, 255, 1);
+            background-image: url('https://i.postimg.cc/sxjDwD5V/front.jpg');
+            background-position: center;
+            background-size: cover;
+            position: relative;
+        }
+
+        nav {
+            display: flex;
+            padding: 30px 8%;
+            position: relative;
+        }
+
+        .logo {
+            font-size: 22px;
+            color: #fff;
+            cursor: pointer;
+        }
+
+        nav ul {
+            flex: 1;
+            text-align: right;
+        }
+
+        nav ul li {
+            list-style: none;
+            display: inline-block;
+            margin: 0 20px;
+            transition: 0.1s ease-out;
+        }
+
+        nav ul li:hover {
+            border-bottom: 2px solid #fff;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            font-size: 12px;
+            color: #fff;
+            font-weight: bold;
+        }
+
+        img {
+            width: 35px;
+            height: 35px;
+            border-radius: 50%;
+            cursor: pointer;
+            margin-top: -7px;
+            transition: 0.1s ease;
+        }
+
+        img:hover {
+            border: 2px solid #fff;
+        }
+
+        h3 {
+            color: #fff;
+            margin: 80px 110px -25px;
+            font-style: italic;
+            font-weight: 100;
+            font-size: 18px;
+            letter-spacing: 1px;
+        }
+
+        h1 {
+            color: #fff;
+            margin: 0 110px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-size: 150px;
+            letter-spacing: 10px;
+            opacity: 0.6;
+            background-image: linear-gradient(45deg, #000, #fff, #000, #fff, #000);
+            background-size: 100%;
+            -webkit-background-clip: text;
+            -moz-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            text-fill-color: transparent;
+        }
+
+        .icons i {
+            color: #fff;
+        }
+
+        .icons {
+            display: flex;
+            margin-top: 80px;
+            margin-right: 50px;
+        }
+
+        .icons ul {
+            flex: 1;
+            text-align: right;
+        }
+
+        .icons ul li {
+            list-style: none;
+            display: inline-block;
+            margin: 15px;
+            padding: 10px;
+        }
+
+        .icons ul li i {
+            font-size: 24px;
+            cursor: pointer;
+            transition: 0.1s all;
+        }
+
+        .icons ul li i.fa-whatsapp {
+            color: #25D366; /* WhatsApp green */
+        }
+
+        .icons ul li i.fa-instagram {
+            color: #C13584; /* Instagram pink */
+        }
+
+        .icons ul li i.fa-facebook {
+            color: #1877F2; /* Facebook blue */
+        }
+
+        .profile-menu {
+            display: none;
+            position: absolute;
+            top: 50px;
+            right: 30px;
+            background: rgba(0, 0, 0, 0.7);
+            color: #fff;
+            padding: 10px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+            width: 200px;
+        }
+
+        .profile-menu p {
+            margin: 5px 0;
+        }
+
+        .profile-menu p span {
+            font-weight: bold;
+        }
+
+        .profile-menu a {
+            display: block;
+            color: #fff;
+            text-decoration: none;
+            margin-top: 10px;
+            text-align: center;
+            background: #007bff;
+            padding: 10px;
+            border-radius: 5px;
+        }
+
+        .profile-menu a:hover {
+            background: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <div class="glass">
+        <nav>
+            <h2 class="logo">𒆜𝓜ข𝒏𝒏ⲗ𒆜</h2>
+            <ul>
+                <li><a href="munna1.html">HOME</a></li>
+                <li><a href="munna2.html">ABOUT</a></li>
+                <li><a href="munna4.html">SERVICE</a></li>
+                <li><a href="munna3.html">CONTACT</a></li>
+            </ul>
+            <img id="profilePic" src="C:\Users\Munna momin\OneDrive\Desktop\PROJECT-20250623T172158Z-1-001\PROJECT\4th Sem UIUX Project All\Images\About Images\profile image.jpeg" alt="profile"> <!-- Update with correct URL -->
+            <div class="profile-menu" id="profileMenu">
+                <p><span>Name:</span> John Doe</p>
+                <p><span>Age:</span> 30</p>
+                <p><span>Email:</span> johndoe@example.com</p>
+                <!-- Add more profile details here -->
+                <a href="munna1.html">Back to Home</a>
+            </div>
+        </nav>
+
+        <div>
+            <h3>it's time to</h3>
+            <h1>TRAVEL</h1>
+        </div>
+        <div class="icons">
+            <ul>
+                <li><a href="https://wa.me/yourwhatsappnumber" target="_blank"><i class="fab fa-whatsapp"></i></a></li>
+                <li><a href="https://www.instagram.com/yourprofile" target="_blank"><i class="fab fa-instagram"></i></a></li>
+                <li><a href="https://www.facebook.com/yourprofile" target="_blank"><i class="fab fa-facebook"></i></a></li>
+            </ul>
+        </div>
+    </div>
+
+   
+</body>
+</html>
